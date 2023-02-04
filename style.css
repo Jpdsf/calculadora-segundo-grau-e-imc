@@ -1,3 +1,7 @@
+*{
+    font-family: 'Garamond';
+
+}
 .card-container{
     width: 100%;
     height: auto;
@@ -26,7 +30,7 @@
     background-color: rgb(207, 2007, 207);
 }
 
-.img-imc{
+.img-card{
     border-radius: 20px;
     height: auto;
     height: 200px;
