@@ -1,0 +1,35 @@
+<div class="container-peso">
+    <input type="number"  autofocus min="0" id="peso" placeholder="Peso em Kg">
+    <div class="button-peso">
+        <span class="next" onclick="nextNumber()"></span>
+        <span class="prev" onclick="prevNumber()"></span>
+        <div id="box">
+            
+        </div>
+
+        <script>
+            var numbers = document.getElementById('box');
+            for(i = 0; i< 400; i++){
+                var span = document.createElement('span');
+                span.textContent = i;
+                numbers.appendChild(span);
+            }
+            var num = numbers.getElementsByTagName('span');
+            var index = 0;
+
+            function nextNumber(){
+                num[index].style.display = 'none';
+                index = (index + 1) % num.length;
+                num[index].style.display = 'initial';
+
+            }
+
+            function prevNumber(){
+                num[index].style.display = 'none';
+                index = (index - 1 + num.length) % num.length;
+                num[index].style.display = 'initial';
+
+            }
+        </script>
+    </div>
+</div>
