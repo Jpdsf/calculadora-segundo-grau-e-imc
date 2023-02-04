@@ -1,6 +1,10 @@
 *{
     font-family: 'Garamond';
+    color: white;
 
+}
+body{
+    background-image: url(https://img.myloview.com.br/adesivos/calculadora-fundo-400-26466692.jpg) ;
 }
 .card-container{
     width: 100%;
@@ -9,13 +13,13 @@
 
 .card-config{
     display: flex;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
 
 }
 
 .card{
-    border: 1px solid black;
+
     border-radius: 20px;
     margin-left: 10px;
     height: 200px;

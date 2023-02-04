@@ -1,4 +1,88 @@
 *{
     font-family: 'Garamond';
+    color: white;
 
 }
+
+body{
+    color: white;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-quadro-realista-de-matematica_23-2148166960.jpg?w=740&t=st=1675532331~exp=1675532931~hmac=d594043d17697804c5cb57ee1ab9078b3ef362a1238983b26588d4114a3f2bcb);
+    font-family: 'Garamond';
+    
+}
+
+
+
+.calculadora{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.caculadora-config{
+    width: 80%;
+    height: auto;
+    background-color: rgb(72, 106, 74);
+    margin: 0 auto;
+    text-align: center;
+    
+    border: 15px solid #f0b07a;
+    border-radius: 7px ;
+    
+    padding-bottom: 30px;
+}
+
+.container-equaca{
+   
+}
+
+.num{
+    width: auto;
+}
+
+
+
+#title{
+    margin: 20px 10px 40px 10px;
+
+}
+
+#altura{
+    cursor:pointer;
+
+}
+
+input[type=number]{
+    width: 100px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    all: unset; 
+    min-width: 21px;
+    min-height: 45px;
+    max-width: 30px;
+    max-height: 54px;
+    margin: 17px;
+    padding: 0px;
+    background-image: 
+    linear-gradient(to top, transparent 0px, transparent 16px, #ffffff 16px, #ffffff 26px, transparent 26px, transparent 35px, #000 35px,#000 36px,transparent 36px, transparent 40px),
+    linear-gradient(to right, transparent 0px, transparent 10px, #000 10px, #000 11px, transparent 11px, transparent 21px);
+    transform: rotate(90deg) scale(0.8, 0.9);
+    cursor:pointer;
+  }
+  
+  #calcular{
+    margin: 30px;
+  }
+
+  h1{
+    margin-top: 10px;
+  }
+
+  
+
+ 
